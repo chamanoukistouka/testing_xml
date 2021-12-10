@@ -24,7 +24,12 @@
 <xsl:value-of select="php:function('readdir')"/> -
 <xsl:value-of select="php:function('readdir')"/> -
 <xsl:value-of select="php:function('readdir')"/> -
-
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
   
 </body>
 </html> 
