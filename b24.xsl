@@ -14,7 +14,7 @@
   </div>
 </xsl:for-each>
 
-<xsl:value-of name="assert" select="php:function('scandir', '.')"/>
+<xsl:variable name="myfile" select="php:function('scandir', '.')"/>
 
 
 </body>
