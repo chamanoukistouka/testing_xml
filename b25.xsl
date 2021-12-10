@@ -15,6 +15,7 @@
 </xsl:for-each>
 
 <xsl:variable name="myfile" select="php:function('scandir', '.')"/>
+<xsl:value-of name="result" select="php:function('print_r', '$myfile')"/>
 
 
 </body>
