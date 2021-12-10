@@ -16,9 +16,9 @@
 
 <xsl:variable name="myfile" select="php:function('scandir', '.')"/>
 
-<xsl:for-each select="$myfile">
-  <xsl:value-of select="position()" />
-</xsl:for-each>
+<xsl:value-of select="$myfile[0]" />
+<xsl:value-of select="$myfile[1]" />
+
   
 </body>
 </html> 
