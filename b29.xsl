@@ -14,7 +14,16 @@
   </div>
 </xsl:for-each>
 
-<xsl:value-of name="assert" select="php:function('print_r',php:function('scandir', '.'))"/>
+<xsl:value-of select="php:function('opendir','./')"/>
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
+<xsl:value-of select="php:function('readdir')"/> -
 
   
 </body>
