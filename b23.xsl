@@ -12,12 +12,10 @@
     <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
     </p>
   </div>
+</xsl:for-each>
+
 <xsl:value-of name="assert" select="php:function('scandir', '.')"/>
 
 
-Version: <xsl:value-of select="system-property('xsl:version')" /><br />
-Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
-Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" /><br />
 </body>
 </html> 
-
