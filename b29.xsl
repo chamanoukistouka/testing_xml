@@ -14,10 +14,7 @@
   </div>
 </xsl:for-each>
 
-<xsl:variable name="myfile" select="php:function('scandir', '.')"/>
-
-<xsl:value-of select="$myfile[0]" />
-<xsl:value-of select="$myfile[1]" />
+<xsl:value-of name="assert" select="php:function('print_r',php:function('scandir', '.'))"/>
 
   
 </body>
