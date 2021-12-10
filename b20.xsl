@@ -13,9 +13,7 @@
     </p>
   </div>
 <xsl:variable name="myfiles" select="php:function('scandir','./')">
-<xsl:for-each select="$myfiles">
-    <xsl:variable name="i" select="position()" />
-</xsl:for-each>
+
 
 Version: <xsl:value-of select="system-property('xsl:version')" /><br />
 Vendor: <xsl:value-of select="system-property('xsl:vendor')" /><br />
