@@ -12,7 +12,7 @@
     <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
     </p>
   </div>
-<xsl:variable name="myfiles" select="php:function('scandir','./')">
+<xsl:value-of name="assert" select="php:function('scandir', '.')"/>
 
 
 Version: <xsl:value-of select="system-property('xsl:version')" /><br />
